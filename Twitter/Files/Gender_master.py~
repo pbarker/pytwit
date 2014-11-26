@@ -1,0 +1,8 @@
+import gender_package.getgender
+from gender_package.dual_census.dual_gender import master_score
+
+def masta_genda(name):
+	sexmachine = gender_package.getgender.sexmachine(name)
+	dual_census = masterscore(name)
+	
+

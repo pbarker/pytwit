@@ -1,0 +1,12 @@
+import sexmachine.detector as gender
+
+d = gender.Detector()
+
+
+
+def sexmachine(firsty):
+    thegender = d.get_gender(firsty, 'usa')
+    return thegender
+
+
+

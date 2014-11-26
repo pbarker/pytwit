@@ -1,0 +1,10 @@
+import sexmachine.detector as gender
+
+d = gender.Detector()
+
+
+class GenderSorter:
+    def sexmachine(self, firsty):
+	d.get_gender(firsty)
+
+
